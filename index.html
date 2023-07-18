@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Phoenician Transliterator : 𐤐𐤕 </title>
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="Phoenician - 𐤐𐤕 Transliterator" />
+    <meta property="og:image"              content="Tanit_Symbol.png" />
+    <meta property="og:description"        content="Phoenician Punic Carthage 𐤐𐤕 " data-qmeta="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="Tanit_Symbol.png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans Phoenician' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <table class="tab">
+          <tr>
+            <td class="widthOfTab ">
+              <button class="tablinks" onclick="openTab(event, 'Latin')" id="defaultOpen">Phoenician</button>
+            </td>
+            <td class="widthOfTab textPhoenician alignIcon">
+              <span class="tablinks phoenicianTab">𐤐𐤕</span>
+            </td>
+          </tr>
+        </table>
+        <div class="text-input">
+          <div id="Latin" class="tabcontent currentTab" dir="ltr">
+            <textarea spellcheck="false" id="textarea1" class="from-text" placeholder="Phoenician (Latin)  
+
+ʾnk tbnt khn ʿštrt mlk ṣdnm bn
+ʾšmnʿzr khn ʿštrt mlk ṣdnm škb bʾrn z
+my ʾt kl ʾdm ʾš tpq ʾyt hʾrn z
+ʾl ʾl tptḥ ʿlty wʾl trgzn
+k ʾy ʾrln ksp ʾy ʾr ln ḥrṣ wkl mnm mšd
+blt ʾnk škb bʾrn z
+ʾl ʾl tptḥ ʿlty wʾl trgzn
+k tʿbt ʿštrt hdbr hʾ
+wʾm ptḥ tptḥ ʿlty wrgz trgzn
+ʾl ykn zrʿ bḥym tḥt šmš
+wmškb ʾt rpʾm" onkeyup="transliterate()"></textarea>
+          </div>
+          <div id="Phoenician" class="phoenicianTabText" dir="rtl">
+            <textarea spellcheck="false" id="textarea2" readonly class="to-text" placeholder="𐤐𐤕 
+
+𐤀𐤍𐤊 𐤕𐤁𐤍𐤕 𐤊𐤄𐤍 𐤏𐤔𐤕𐤓𐤕 𐤌𐤋𐤊 𐤑𐤃𐤍𐤌 𐤁𐤍
+𐤀𐤔𐤌𐤍𐤏𐤆𐤓 𐤊𐤄𐤍 𐤏𐤔𐤕𐤓𐤕 𐤌𐤋𐤊 𐤑𐤃𐤍𐤌 𐤔𐤊𐤁 𐤁𐤀𐤓𐤍 𐤆
+𐤌𐤉 𐤀𐤕 𐤊𐤋 𐤀𐤃𐤌 𐤀𐤔 𐤕𐤐𐤒 𐤀𐤉𐤕 𐤄𐤀𐤓𐤍 𐤆
+𐤀𐤋 𐤀𐤋 𐤕𐤐𐤕𐤇 𐤏𐤋𐤕𐤉 𐤅𐤀𐤋 𐤕𐤓𐤂𐤆𐤍
+𐤊 𐤀𐤉 𐤀𐤓𐤋𐤍 𐤊𐤎𐤐 𐤀𐤉 𐤀𐤓 𐤋𐤍 𐤇𐤓𐤑 𐤅𐤊𐤋 𐤌𐤍𐤌 𐤌𐤔𐤃
+𐤁𐤋𐤕 𐤀𐤍𐤊 𐤔𐤊𐤁 𐤁𐤀𐤓𐤍 𐤆
+𐤀𐤋 𐤀𐤋 𐤕𐤐𐤕𐤇 𐤏𐤋𐤕𐤉 𐤅𐤀𐤋 𐤕𐤓𐤂𐤆𐤍
+𐤊 𐤕𐤏𐤁𐤕 𐤏𐤔𐤕𐤓𐤕 𐤄𐤃𐤁𐤓 𐤄𐤀
+𐤅𐤀𐤌 𐤐𐤕𐤇 𐤕𐤐𐤕𐤇 𐤏𐤋𐤕𐤉 𐤅𐤓𐤂𐤆 𐤕𐤓𐤂𐤆𐤍
+𐤀𐤋 𐤉𐤊𐤍 𐤆𐤓𐤏 𐤁𐤇𐤉𐤌 𐤕𐤇𐤕 𐤔𐤌𐤔
+𐤅𐤌𐤔𐤊𐤁 𐤀𐤕 𐤓𐤐𐤀𐤌 " dir="rtl" onkeyup="transliterate()"></textarea>
+          </div>
+        </div>
+        <ul class="controls">
+          <li class="row from">
+            <div class="icons tooltip" onmousedown="show1()">
+              <i id="from" class="fas fa-copy" onclick="copyContent1()"></i>
+              <div id="tooltip1" onmouseout="hide()" class="tooltiptext">
+                <span class="latinCopyText">Copy Transliteration text - Phoenician</span>
+              </div>
+            </div>
+          </li>
+          <li class="exchange">
+            <i class="fas fa-exchange-alt" onclick="swapTransliteration()"></i>
+          </li>
+          <li class="row to">
+            <div class="icons tooltip" onmousedown="show2()">
+              <i id="to" class="fas fa-copy" onclick="copyContent2()"></i>
+              <div id="tooltip2" onmouseout="hide()" class="tooltiptext">
+                <span class="textPhoenician">Copy 𐤐𐤕</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button onclick="transliterate()"><span class="footerLatin">Phoenician</span> | <span class="footerPhoenician">𐤐𐤕</span></button>
+    </div>
+    
+    <div class="footerOfPage">
+      &nbsp;&nbsp;&nbsp;<img src="Phoenician_Flag.png" alt="देवनागरी - World Scripts Explorer" class="footerImage" height="19px" width="32px"/>&nbsp;&nbsp;&nbsp;<a href="https://worldscriptsexplorer.page/phn" target="_blank">𐤐𐤕</a>&nbsp;&nbsp;&nbsp;2023 yshant&nbsp;&nbsp;&nbsp;
+    </div>
+    <script src="transliterate.js"></script>
+  </body>
+</html>
