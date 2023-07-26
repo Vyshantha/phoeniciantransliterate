@@ -137,6 +137,8 @@ document.getElementById("textarea1").focus();
 if (localStorage.getItem("direction") == null || localStorage.getItem("direction") == undefined || localStorage.getItem("direction") == "phoenician2latin") {
   localStorage.setItem("direction", "latin2phoenician");
   localStorage.setItem("encoding", "Latin");
+} else if (localStorage.getItem("direction") != "phoenician2latin" && localStorage.getItem("direction") != "latin2phoenician") {
+  localStorage.clear();
 }
 
 if (screen.width >= 300 && screen.width <= 500) {
