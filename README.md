@@ -7,8 +7,8 @@ The application completes transliteration of texts pasted or typed into the text
 
 The languages ```Phoenician, Punic, Ammonite, Moabite, Edomite``` written in Phoenician 𐤐𐤕 script are supported with this application.
 
-- To change the transliteration direction i.e. to switch between Latin or Phoenician, click the swap icon  <img src="./swap-horiz-64.png" width="40px" height="40px" />  
-- To copy the contents of the either Latin or Phoenician text areas click the copy content icon  <img src="./content-copy-64.png" width="40px" height="40px" /> 
+- To change the transliteration direction i.e. to switch between Latin or Phoenician, click the swap icon  <img src="./swap-horiz-64.png" width="20px" height="20px" />  
+- To copy the contents of the either Latin or Phoenician text areas click the copy content icon  <img src="./content-copy-64.png" width="20px" height="20px" /> 
 
 
 The application is yet to be perfected - "Work In Progress!" 
